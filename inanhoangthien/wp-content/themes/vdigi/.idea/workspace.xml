@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f1ad517-615b-4df3-8525-c1496e054aee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/preview_video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vdigi_hoangthienboxcom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../vdigi_hoangthienboxcom.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/admin/wp-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/admin/wp-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-parts/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-parts/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-parts/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-parts/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-parts/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-parts/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-parts/why.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-parts/why.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1r9YfEnDCcBTPYYCwSO0QdqAY2L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/icon" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\VDIGI\PROJECT\17-hoangthienbox.com\wp-content\themes\vdigi\assets\images\icon" />
+      <recent name="C:\wamp64\www\VDIGI\PROJECT\17-hoangthienbox.com\wp-content\themes\vdigi" />
+      <recent name="C:\wamp64\www\VDIGI\PROJECT\17-hoangthienbox.com\wp-content\themes\vdigi\assets\images\bg" />
+      <recent name="C:\wamp64\www\VDIGI\PROJECT\17-hoangthienbox.com\wp-content\themes\vdigi\home-parts" />
+      <recent name="C:\wamp64\www\VDIGI\PROJECT\17-hoangthienbox.com\wp-content\themes\vdigi\assets\fonts\v-fonts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f1ad517-615b-4df3-8525-c1496e054aee" name="Default Changelist" comment="" />
+      <created>1618389873423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618389873423</updated>
+      <workItem from="1618389874838" duration="5123000" />
+      <workItem from="1618449284222" duration="15508000" />
+      <workItem from="1618486764782" duration="680000" />
+      <workItem from="1618537324892" duration="22101000" />
+      <workItem from="1618621870552" duration="13535000" />
+      <workItem from="1618641404033" duration="4500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618469470921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1618469470921" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1618452961229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618452961229" />
+  </component>
+</project>

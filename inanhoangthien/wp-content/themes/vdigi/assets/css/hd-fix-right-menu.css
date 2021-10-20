@@ -1,0 +1,694 @@
+/*===============// FIX RIGHT FB CHAT ON PAGE //==============*/
+.fb_dialog_content iframe {
+    right: -12px !important;
+    bottom: 60px !important;
+}
+
+@media screen and (max-width: 768px) {
+    div#fb-root .fb_dialog_content iframe {
+        bottom: 5px !important;
+    }
+}
+
+/*===============// END FIX RIGHT FB CHAT ON PAGE //==============*/
+
+/*===============// FIX RIGHT STYLE = 1 //==============*/
+.fix-right-menu {
+    width: 45px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    list-style: none;
+    z-index: 999;
+    background: #f7f7f7;
+    border: 1px solid #e4e4e4;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.fix-right-menu li.fl-zalo .v-ti-zalo {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: 58px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li, .fix-right-menu li {
+    width: 45px;
+    height: 41px;
+    line-height: 42px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.fix-right-menu li a {
+    color: #888;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fix-right-menu li.fl-zalo .v-ti-zalo {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 40px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.v-ti-zalo.blue {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50% !important;
+    width: 16px;
+    height: 16px;
+}
+
+.fix-right-menu li a span {
+    color: #888;
+}
+
+.fix-right-menu li.fl-facebook .v-ti-facebook {
+    background: url(../images/icon/icon-fb.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 40px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li.fl-phone .v-ti-phone {
+    background: url(../images/icon/icon-phone.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 34px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li:hover span.label {
+    display: block;
+}
+
+.fix-right-menu li.fl-zalo span.label {
+    background: #018fe5;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-zalo span.label:before {
+    border-right-color: #018fe5;
+}
+
+.fix-right-menu li.fl-facebook span.label {
+    background: #4267B2;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-facebook span.label:before {
+    border-right-color: #4267B2;
+}
+
+.fix-right-menu li.fl-phone span.label {
+    background: red;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-phone span.label:before {
+    border-right-color: red;
+}
+
+.fix-right-menu li span.label {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    right: 60px;
+    top: 7px;
+    white-space: nowrap;
+    padding: 0 6px 0 10px;
+    background: #444;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.fix-right-menu li span.label:before {
+    content: "";
+    top: 0;
+    right: -15px;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #444;
+    border-bottom: 15px solid transparent;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+[class*=" ti-"], [class^=ti-] {
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+    .fix-right-menu li:hover span.label {
+        display: none !important;
+    }
+
+    .fix-right-menu {
+        opacity: 1;
+        top: unset !important;
+        bottom: 60px !important;
+        background: none !important;
+        border: none !important;
+    }
+}
+
+/*===============// END FIX RIGHT STYLE = 1 //==============*/
+
+/*===============// FIX RIGHT STYLE = 2 //==============*/
+.v-interactPanel {
+    position: fixed;
+    z-index: 99999;
+    top: 55%;
+    right: 5px;
+}
+
+.v-interactPanel .inner-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.v-interactPanel .inner-item a.v-iconButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    /*background-color: var(--second-color);*/
+    border-radius: 25px;
+    transition: .4s ease;
+}
+
+.v-interactPanel .inner-item.v-fr-hotline a.v-iconButton,
+.v-interactPanel .inner-item.v-fr-hotline:before {
+    background-color: #FF0B0B;
+}
+
+.v-interactPanel .inner-item.v-fr-zalo a.v-iconButton,
+.v-interactPanel .inner-item.v-fr-zalo:before {
+    background-color: #089CFF;
+}
+
+.v-interactPanel .inner-item.v-fr-facebook a.v-iconButton,
+.v-interactPanel .inner-item.v-fr-facebook:before {
+    background-color: #1877F2;
+}
+
+.v-interactPanel .inner-item a {
+    text-decoration: none;
+}
+
+.a-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.v-interactPanel .inner-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.v-interactPanel .inner-item a {
+    text-decoration: none;
+}
+
+@media (max-width: 1199.98px) {
+    .v-interactPanel {
+        top: 15%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .v-interactPanel {
+        top: auto;
+        right: 10px;
+        bottom: 13%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .v-interactPanel .inner-item .text {
+        position: absolute;
+        top: 14px;
+        left: -76px;
+        color: #fff;
+        transition: .2s ease;
+        transform: scale(0);
+    }
+
+    .v-interactPanel .inner-item:hover .text {
+        transform: scale(1);
+    }
+
+    .v-interactPanel .inner-item:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -30px;
+        width: 190px;
+        background-color: var(--second-color);
+        z-index: -1;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        transition: .2s ease;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(100px);
+    }
+
+    .v-interactPanel .inner-item:hover:before {
+        transform: translate(0);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .v-interactPanel {
+        bottom: 0;
+        top: auto;
+        left: 0;
+        right: 0;
+        display: flex;
+        height: 50px;
+    }
+
+    .v-interactPanel .inner-item {
+        margin-bottom: 0;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+        display: flex;
+        align-items: center;
+        background-color: var(--second-color);
+        border-top: 1px solid rgb(0 0 0 / 5%);
+    }
+
+    .v-interactPanel .inner-item.v-fr-hotline a.v-iconButton,
+    .v-interactPanel .inner-item.v-fr-hotline:before {
+        background-color: unset;
+    }
+
+    .v-interactPanel .inner-item.v-fr-zalo a.v-iconButton,
+    .v-interactPanel .inner-item.v-fr-zalo:before {
+        background-color: unset;
+    }
+
+    .v-interactPanel .inner-item.v-fr-facebook a.v-iconButton,
+    .v-interactPanel .inner-item.v-fr-facebook:before {
+        background-color: unset;
+    }
+
+    .v-interactPanel .inner-item a.v-iconButton {
+        width: 40px;
+        height: 40px;
+    }
+
+    .v-interactPanel .inner-item .text {
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        font-family: var(--second-font);
+        margin-left: -5px;
+    }
+
+    .v-interactPanel .inner-item:nth-child(2) {
+        padding-left: 25px;
+    }
+}
+
+/*===============// END FIX RIGHT STYLE = 2 //==============*/
+
+
+/*===============// FIX LEFT STYLE = 3 left-ring //==============*/
+.v-interactPanel.v-fix-menu-style-3 {
+    top: 63%;
+}
+
+@media (max-width: 767px) {
+    .v-interactPanel.v-fix-menu-style-3 {
+        bottom: 10px;
+        top: auto;
+        left: auto;
+        right: 5px;
+        display: inherit;
+        height: inherit;
+    }
+
+    .v-interactPanel.v-fix-menu-style-3 .inner-item {
+        margin-bottom: 0;
+        flex: initial;
+        max-width: initial;
+        display: initial;
+        align-items: initial;
+        background-color: initial;
+        border-top: none;
+    }
+
+    .v-interactPanel.v-fix-menu-style-3 .inner-item .text {
+        display: none;
+    }
+
+    .v-interactPanel.v-fix-menu-style-3 .inner-item.v-fr-zalo a.v-iconButton,
+    .v-interactPanel.v-fix-menu-style-3 .inner-item.v-fr-zalo:before {
+        background-color: #089CFF;
+    }
+
+    .v-interactPanel .inner-item.v-fr-facebook a.v-iconButton, .v-interactPanel .inner-item.v-fr-facebook:before {
+        background-color: #1877F2;
+    }
+}
+
+.v-fix-left .hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 0px;
+    left: -20px;
+    z-index: 99;
+}
+
+.v-fix-left .hotline-phone-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.v-fix-left .hotline-phone-ring-circle {
+    width: 87px;
+    height: 87px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid #ff0000;
+    -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0.5;
+}
+
+.v-fix-left .hotline-phone-ring-circle-fill {
+    width: 57px;
+    height: 57px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    background-color: #ff0000;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.v-fix-left .hotline-phone-ring-img-circle {
+    background-color: #ff0000;
+    width: 33px;
+    height: 33px;
+    top: 37px;
+    left: 37px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v-fix-left .hotline-phone-ring-img-circle .pps-btn-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.v-fix-left .hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.v-fix-left .hotline-bar {
+    display: none;
+    position: absolute;
+    background: #ff0000;
+    height: 40px;
+    width: 165px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding-right: 6px;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    z-index: 9;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px !important; /* width: 175px !important; */
+    left: 33px;
+    bottom: 37px;
+}
+
+.v-fix-left .hotline-bar > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 50px;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: var(--third-font);
+}
+
+.v-fix-left .hotline-bar > a:hover, .v-fix-left .hotline-bar > a:active {
+    color: #fff;
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+
+    0% {
+        -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+
+    30% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        -webkit-opacity: 0.5;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+
+    0% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.6;
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.6;
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+
+}
+
+@media (max-width: 767px) {
+    /*.hotline-bar { display: none; } */
+    .v-fix-left .hotline-bar {
+        display: none;
+    }
+
+    .v-fix-left .hotline-phone-ring-wrap {
+        bottom: -15px;
+        left: -10px;
+    }
+}
+
+/* Zalo */
+.v-fix-left .v-zalo-ring {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 35px;
+    left: 200px;
+    z-index: 99;
+}
+
+.v-fix-left .v-zalo-ring img {
+    position: relative;
+    z-index: 1;
+}
+
+.v-fix-left .v-zalo-ring .v-alo-circle-fill {
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: #0294e0;
+    opacity: .75;
+    right: -10px;
+
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+}
+
+.v-fix-left .v-zalo-ring .kenit-alo-circle {
+    width: 50px;
+    height: 50px;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid #0294e0;
+    opacity: .1;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .v-fix-left .v-zalo-ring {
+        width: 33px;
+        height: 33px;
+        left: 100px;
+        bottom: 25px;
+    }
+
+    .v-fix-left .v-zalo-ring .kenit-alo-circle {
+        width: 45px;
+        height: 45px;
+    }
+
+    .v-fix-left .v-zalo-ring .v-alo-circle-fill {
+        width: 50px;
+        height: 50px;
+        top: -10px;
+        right: -8px;
+    }
+}
+
+/*===============// END FIX LEFT STYLE = 3 left-ring //==============*/
