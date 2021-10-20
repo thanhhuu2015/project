@@ -1,0 +1,189 @@
+/*Begin: fix left menu*/
+
+.fix-right-menu {
+    width: 45px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    list-style: none;
+    z-index: 999;
+    background: #f7f7f7;
+    border: 1px solid #e4e4e4;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.fix-right-menu li.fl-zalo .v-ti-zalo {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: 58px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li, .fix-right-menu li {
+    width: 45px;
+    height: 41px;
+    line-height: 42px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.fix-right-menu li a {
+    color: #888;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fix-right-menu li.fl-zalo .v-ti-zalo {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 40px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.v-ti-zalo.blue {
+    background: url(../images/icon/icon-zalo.png) no-repeat 50% 50% !important;
+    width: 16px;
+    height: 16px;
+}
+
+.fix-right-menu li a span {
+    color: #888;
+}
+
+.fix-right-menu li.fl-facebook .v-ti-facebook {
+    background: url(../images/icon/icon-fb.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 40px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li.fl-phone .v-ti-phone {
+    background: url(../images/icon/icon-phone.png) no-repeat 50% 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 34px !important;
+    vertical-align: middle;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+
+.fix-right-menu li:hover span.label {
+    display: block;
+}
+
+.fix-right-menu li.fl-zalo span.label {
+    background: #018fe5;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-zalo span.label:before {
+    border-right-color: #018fe5;
+}
+
+.fix-right-menu li.fl-facebook span.label {
+    background: #4267B2;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-facebook span.label:before {
+    border-right-color: #4267B2;
+}
+
+.fix-right-menu li.fl-phone span.label {
+    background: red;
+    color: #FFF;
+}
+
+.fix-right-menu li.fl-phone span.label:before {
+    border-right-color: red;
+}
+
+.fix-right-menu li span.label {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    right: 60px;
+    top: 7px;
+    white-space: nowrap;
+    padding: 0 6px 0 10px;
+    background: #444;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.fix-right-menu li span.label:before {
+    content: "";
+    top: 0;
+    right: -15px;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #444;
+    border-bottom: 15px solid transparent;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+[class*=" ti-"], [class^=ti-] {
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fb_dialog_content iframe {
+    right: -12px !important;
+    bottom: 60px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .fix-right-menu li:hover span.label {
+        display: none !important;
+    }
+
+    .fix-right-menu {
+        opacity: 1;
+        top: unset !important;
+        bottom: 60px !important;
+        background: none !important;
+        border: none !important;
+    }
+    div#fb-root .fb_dialog_content iframe {
+        bottom: 5px !important;
+    }
+}
