@@ -1,0 +1,1761 @@
+main#page {
+
+    max-width: 1920px;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+.widget {
+
+    margin: 0 0 1.5em;
+
+    /* Make sure select elements fit in widgets. */
+
+}
+
+
+
+
+
+
+
+.widget select {
+
+
+
+    max-width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.sticky {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.hentry {
+
+
+
+    margin: 0 0 1.5em;
+
+
+
+}
+
+
+
+
+
+
+
+.updated:not(.published) {
+
+
+
+    display: none;
+
+
+
+}
+
+
+
+
+
+
+
+.page-content,
+
+.entry-content,
+
+.entry-summary {
+
+
+
+    margin: 1.5em 0 0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-links {
+
+
+
+    clear: both;
+
+
+
+    margin: 0 0 1.5em;
+
+
+
+}
+
+
+
+
+
+
+
+.comment-content a {
+
+
+
+    word-wrap: break-word;
+
+
+
+}
+
+
+
+
+
+
+
+.bypostauthor {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
+
+
+.infinite-scroll .posts-navigation,
+
+.infinite-scroll.neverending .site-footer {
+
+    /* Theme Footer (when set to scrolling) */
+
+
+
+    display: none;
+
+
+
+}
+
+
+
+
+
+
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
+
+
+.infinity-end.neverending .site-footer {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.page-content .wp-smiley,
+
+.entry-content .wp-smiley,
+
+.comment-content .wp-smiley {
+
+
+
+    border: none;
+
+
+
+    margin-bottom: 0;
+
+
+
+    margin-top: 0;
+
+
+
+    padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/* Make sure embeds and iframes fit their containers. */
+
+
+
+embed,
+
+iframe,
+
+object {
+
+
+
+    max-width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+/* Make sure logo link wraps around logo image. */
+
+
+
+.custom-logo-link {
+
+
+
+    display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption {
+
+
+
+    margin-bottom: 1.5em;
+
+
+
+    max-width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption img[class*="wp-image-"] {
+
+
+
+    display: block;
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption .wp-caption-text {
+
+
+
+    margin: 0.8075em 0;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption-text {
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.excerpt p {
+
+
+
+    overflow: hidden;
+
+
+
+    display: -webkit-box;
+
+
+
+    -webkit-line-clamp: 3;
+
+
+
+    -webkit-box-orient: vertical;
+
+
+
+    -o-text-overflow: ellipsis;
+
+
+
+    text-overflow: ellipsis;
+
+
+
+    margin-bottom: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+article.card {
+
+
+
+    -webkit-transition: all 0.3s ease;
+
+
+
+    -o-transition: all 0.3s ease;
+
+
+
+    transition: all 0.3s ease;
+
+
+
+}
+
+
+
+p.image-detail img {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+article.card:hover {
+
+
+
+    -webkit-box-shadow: 1px 2px 6px #3333;
+
+
+
+    box-shadow: 1px 2px 6px #3333;
+
+
+
+    -webkit-transform: translate3d(0px, -5px, 0px);
+
+
+
+    transform: translate3d(0px, -5px, 0px);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iframe.fb_iframe_widget_lift {
+
+
+
+    width: 100% !important;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.blocg_item {
+
+
+
+    margin-bottom: 2.5rem;
+
+
+
+}
+
+
+
+
+
+
+
+.blocg_item .blogwp .image-blog {
+
+
+
+    width: 100%;
+
+
+
+    display: block;
+
+
+
+    border: 1px solid #f8f8f8;
+
+
+
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+    -o-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+    -os-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+}
+
+
+
+
+
+
+
+.blocg_item .blogwp .image-blog span {
+
+
+
+    display: block;
+
+
+
+    position: absolute;
+
+
+
+    z-index: 3;
+
+
+
+    text-align: center;
+
+
+
+    width: 70px;
+
+
+
+    background: #ff5b02;
+
+
+
+    font-size: 30px;
+
+
+
+    font-weight: 700;
+
+
+
+    color: #fff;
+
+
+
+    padding: 5px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.blocg_item .blogwp .image-blog span span {
+
+
+
+    width: 100%;
+
+
+
+    text-align: Center;
+
+
+
+    font-size: 14px;
+
+
+
+    line-height: 24px;
+
+
+
+    background: #010e2a;
+
+
+
+}
+
+
+
+
+
+
+
+.blocg_item .blogwp .content_blog {
+
+
+
+    width: 100%;
+
+
+
+    padding: 15px 0 0;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+.blocg_item .blogwp .content_blog h3 {
+
+
+
+    font-size: 14px;
+
+
+
+    color: #292929;
+
+
+
+    padding: 0;
+
+
+
+    margin: 0 0 0px;
+
+
+
+    font-weight: 700;
+
+
+
+    display: block;
+
+
+
+    width: 100%;
+
+
+
+    text-align: left;
+
+
+
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+.content_blog>h3>a {
+
+
+
+    color: #000;
+
+
+
+}
+
+
+
+
+
+
+
+a.image-blog img {
+
+
+
+    width: 100%;
+
+
+
+    height: 160px;
+
+
+
+    -o-object-fit: cover;
+
+
+
+    object-fit: cover;
+
+
+
+    -webkit-transition: all 1s;
+
+
+
+    -o-transition: all 1s;
+
+
+
+    transition: all 1s;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*slider*/
+
+
+
+
+
+
+
+#jssor_1 img {
+
+
+
+    height: 100%;
+
+    width: 100%;
+
+    -o-object-fit: cover;
+
+    object-fit: cover;
+
+
+
+}
+
+
+
+
+
+
+
+.jssorl-009-spin img {
+
+
+
+    -webkit-animation-name: jssorl-009-spin;
+
+
+
+    animation-name: jssorl-009-spin;
+
+
+
+    -webkit-animation-duration: 1.6s;
+
+
+
+    animation-duration: 1.6s;
+
+
+
+    -webkit-animation-iteration-count: infinite;
+
+
+
+    animation-iteration-count: infinite;
+
+
+
+    -webkit-animation-timing-function: linear;
+
+
+
+    animation-timing-function: linear;
+
+
+
+}
+
+
+
+
+
+
+
+@-webkit-keyframes jssorl-009-spin {
+
+
+
+    from {
+
+
+
+        -webkit-transform: rotate(0deg);
+
+
+
+        transform: rotate(0deg);
+
+
+
+    }
+
+
+
+
+
+
+
+    to {
+
+
+
+        -webkit-transform: rotate(360deg);
+
+
+
+        transform: rotate(360deg);
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@keyframes jssorl-009-spin {
+
+
+
+    from {
+
+
+
+        -webkit-transform: rotate(0deg);
+
+
+
+        transform: rotate(0deg);
+
+
+
+    }
+
+
+
+
+
+
+
+    to {
+
+
+
+        -webkit-transform: rotate(360deg);
+
+
+
+        transform: rotate(360deg);
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.jssorb053 .i {
+
+
+
+    position: absolute;
+
+
+
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+
+
+
+.jssorb053 .i .b {
+
+
+
+    fill: #fff;
+
+
+
+    fill-opacity: 0.5;
+
+
+
+}
+
+
+
+
+
+
+
+.jssorb053 .i:hover .b {
+
+
+
+    fill-opacity: 1;
+
+
+
+    fill: var(--primary-color);
+
+
+
+}
+
+
+
+
+
+
+
+.jssorb053 .iav .b {
+
+
+
+    fill-opacity: 1;
+
+
+
+    fill: var(--primary-color);
+
+
+
+}
+
+
+
+
+
+
+
+.jssorb053 .i.idn {
+
+
+
+    opacity: .3;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093 {
+
+
+
+    display: block;
+
+
+
+    position: absolute;
+
+
+
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093 .c {
+
+
+
+    fill: none;
+
+
+
+    stroke: #fff;
+
+
+
+    stroke-width: 400;
+
+
+
+    stroke-miterlimit: 10;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093 .a {
+
+
+
+    fill: none;
+
+
+
+    stroke: #fff;
+
+
+
+    stroke-width: 400;
+
+
+
+    stroke-miterlimit: 10;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093:hover {
+
+
+
+    opacity: .8;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093.jssora093dn {
+
+
+
+    opacity: .6;
+
+
+
+}
+
+
+
+
+
+
+
+.jssora093.jssora093ds {
+
+
+
+    opacity: .3;
+
+
+
+    pointer-events: none;
+
+
+
+}
+
+
+
+
+
+
+
+.card-title-style {
+
+
+
+    min-height: 48px;
+
+
+
+}
+
+
+
+.card-title-style a {
+
+
+
+    -o-text-overflow: ellipsis;
+
+
+
+    text-overflow: ellipsis;
+
+
+
+    display: -webkit-box;
+
+
+
+    -webkit-line-clamp: 2;
+
+
+
+    -webkit-box-orient: vertical;
+
+
+
+    overflow: hidden;
+
+
+
+    font-size: 20px;
+
+
+
+    color: #424242;
+
+
+
+}
+
+
+
+
+
+
+
+.card-text-style {
+
+
+
+    font-size: 14px;
+
+
+
+    -o-text-overflow: ellipsis;
+
+
+
+    text-overflow: ellipsis;
+
+
+
+    display: -webkit-box;
+
+
+
+    -webkit-line-clamp: 3;
+
+
+
+    -webkit-box-orient: vertical;
+
+
+
+    overflow: hidden;
+
+
+
+    min-height: 60px;
+
+
+
+}
+
+
+
+
+
+
+
+.heading-page h1 {
+
+
+
+    font-size: 30px;
+
+
+
+    font-weight: 700;
+
+
+
+    margin-bottom: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-loop {
+
+
+
+    margin-bottom: 25px;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-post .blog-post-title {
+
+
+
+    margin-bottom: 10px;
+
+
+
+    font-size: 18px;
+
+
+
+    text-transform: none;
+
+
+
+    letter-spacing: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-post .blog-post-title a {
+
+
+
+    color: #5c5c5c;
+
+
+
+    display: -webkit-box;
+
+
+
+    overflow: hidden;
+
+
+
+    -webkit-line-clamp: 2;
+
+
+
+    -webkit-box-orient: vertical;
+
+
+
+    -o-text-overflow: ellipsis;
+
+
+
+    text-overflow: ellipsis;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-post .blog-post-meta {
+
+
+
+    margin-bottom: 15px;
+
+
+
+    color: #999;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-post .blog-post-thumbnail img {
+
+
+
+    -webkit-transition: all 1s ease-in-out 0s;
+
+
+
+    -o-transition: all 1s ease-in-out 0s;
+
+
+
+    transition: all 1s ease-in-out 0s;
+
+
+
+    -webkit-transform: scale(1);
+
+
+
+    -khtml-transform: scale(1);
+
+
+
+    -ms-transform: scale(1);
+
+
+
+    transform: scale(1);
+
+
+
+    height: 160px;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-posts .blog-post .blog-post-thumbnail {
+
+
+
+    display: block;
+
+
+
+    overflow: hidden;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-post .entry-content p {
+
+
+
+    display: -webkit-box;
+
+
+
+    overflow: hidden;
+
+
+
+    -webkit-line-clamp: 3;
+
+
+
+    -webkit-box-orient: vertical;
+
+
+
+    -o-text-overflow: ellipsis;
+
+
+
+    text-overflow: ellipsis;
+
+
+
+    margin-bottom: 0;
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.blog-post .entry-content {
+
+
+
+    margin-top: 0.5rem;
+
+
+
+}
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+
+
+@media (max-width: 767px) {
+
+
+
+    .blog-posts .blog-post .blog-post-title {
+
+
+
+        margin: 12px 0;
+
+
+
+    }
+
+
+
+
+
+
+
+    .blog-posts .blog-post .blog-post-thumbnail img {
+
+
+
+        height: 230px;
+
+
+
+    }
+
+
+
+
+
+
+
+    .blog-posts .blog-loop {
+
+
+
+        margin-bottom: 30px;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+.card-image img {
+
+
+
+    height: 100%;
+
+
+
+    -o-object-fit: cover;
+
+
+
+    object-fit: cover;
+
+
+
+}
+
+
+
+.fb-like.fb_iframe_widget,
+
+.fb-like.fb_iframe_widget * {
+
+    width: 128px !important;
+
+    /*height: 20px !important;*/
+
+}
+
+
+
+
+
+/*------------------------ Error 404------------------------*/
+
+
+
+#error {
+
+
+
+    padding: 40px 0;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+.error_title {
+
+
+
+    color: #000;
+
+
+
+}
+
+
+
+.error_title p {
+
+
+
+    color: #ed3d3f;
+
+
+
+    font-size: 18px;
+
+
+
+    margin: 0;
+
+
+
+    padding-top: 20px;
+
+
+
+}
+
+
+
+.error_title img {
+
+
+
+    Padding-top: 50px;
+
+
+
+    width: 100%;
+
+
+
+    max-width: 200px;
+
+
+
+}
+
+
+
+.error_bottom {
+
+
+
+    margin-top: 15px;
+
+
+
+}
+
+
+
+.error_bottom a {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px 30px;
+
+
+
+    color: #fff;
+
+
+
+    background: #ed3d3f;
+
+
+
+    border: 1px solid #fff;
+
+
+
+    border-radius: 40px;
+
+
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+/*------------------------ END Error 404------------------------*/
